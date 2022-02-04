@@ -18,5 +18,6 @@ public class CardDealer
         
         Card aceHearts = new Card("Hearts", 1);
         
+        System.out.println(aceHearts.getValue() + " of " + aceHearts.getSuit());
     }
 }
